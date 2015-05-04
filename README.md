@@ -1,2 +1,2 @@
 # Endtalk
-anonymous random online chat
+1-1 anonymous random online chat
