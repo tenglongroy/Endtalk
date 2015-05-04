@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asdf.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:background="#00A2E8" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="114dp"
+            android:layout_height="36dp"
+            android:src="@drawable/logo" />
+        <!-- android:src="@android:drawable/btn_star" -->
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="登录未成功"
+            android:textColor="#ff0000" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="在线" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="num" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.63"
+        android:id="@+id/chat_root"
+		android:background="@drawable/nav_page"
+    	android:focusable="false"
+    	android:focusableInTouchMode="false"
+        android:orientation="vertical" >
+
+<!--         <ScrollView  failed try-->
+<!--             android:id="@+id/scrollview" -->
+<!--             android:layout_width="match_parent" -->
+<!-- 	        android:layout_height="match_parent"> -->	    <ListView
+	        android:id="@+id/chatting_history_lv"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@null"
+	        android:cacheColorHint="#00000000"
+	        android:divider="@null"
+	        android:listSelector="@drawable/mm_chat_listitem"
+	        android:scrollbars="vertical"
+	        android:transcriptMode="alwaysScroll" >
+    	</ListView>	
+	    
+<!-- 	    	android:layout_width="70dip" -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_weight="0.06" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:visibility="visible"
+            android:text="@string/leave" />
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.68"
+            android:ems="10"
+            android:hint="@string/editshow"
+            android:visibility="visible"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="78dp"
+            android:layout_height="60sp"
+            android:visibility="visible"
+            android:text="@string/send" />
+<!--         <Button -->
+<!-- 	        android:id="@+id/button4" -->
+<!-- 	        android:layout_width="45dip" -->
+<!-- 	        android:layout_height="match_parent" -->
+<!-- 	        android:drawableLeft="@drawable/exit" -->
+<!-- 	        android:text="@string/exit" -->
+<!-- 	        android:textSize="18sp" -->
+<!-- 	        android:visibility="visible" /> -->
+<!--         <Button  -->
+<!--             android:id="@+id/buttonsdk" -->
+<!--             android:layout_width="50dip" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:text="@string/share" -->
+<!--             android:textSize="18sp" -->
+<!-- 	        android:visibility="visible"/> -->
+
+		<ImageButton
+		    android:id="@+id/ib_exit"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/ib_close"
+		    android:visibility="gone" />
+		<ImageButton
+		    android:id="@+id/ib_share"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/ib_share"
+		    android:visibility="gone" />
+		<Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#ff9a35"
+            android:text="@string/reconnect"
+            android:textSize="25sp"
+            android:visibility="gone" />
+	    
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<resources>
+
+    <string name="app_name">Endtalk</string>
+	<string name="send_me">我:</string>
+	<string name="send_stranger">陌生人:</string>
+	<string name="thanksforusing">谢谢使用</string>
+	<string name="logining">登录中…</string>
+	<string name="logined">登录成功</string>
+	<string name="waiting">等待连接…</string>
+	<string name="connected">连接成功</string>
+	<string name="disconnect">对方已断开。</string>
+	<string name="selfdisconnect">您已断开。</string>	
+	<string name="editshow">输入</string>
+	<string name="failinitialize">初始化失败</string>
+	<string name="failconnection">连接失败</string>
+	<string name="othertyping">对方正在输入…</string>
+	<string name="reconnect">重 新 连 接</string>
+	<string name="connect">开始聊天</string>
+	<string name="exit">退出</string>
+	<string name="repeatbackkey">再按一次退出程序</string>
+	<string name="leave">断开</string>
+	<string name="send">发送</string>
+	<string name="share_content">随便分享一下</string>
+	<string name="share_text">匿名聊天，想知道跟你聊天的家伙到底是谁吗？点击查看</string>
+	<string name="share_title">神秘的另一端</string>
+	
+	<string name="msg_window">无法连接到服务器</string>
+	
+
+	
+</resources>
